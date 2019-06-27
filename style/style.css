@@ -1,3 +1,7 @@
+:root {
+    --main-color: #3993ad;
+}
+
 * {
     margin: 0 0;
     padding: 0 0;
@@ -31,8 +35,8 @@ main {
     display: block;
     position: relative;
     top: 50px;
-    background-color: #3993ad;
-    border-radius: 100px 100px 100px 100px;
+    background-color: var(--main-color);
+    border-radius: 100px;
     text-align: center;
     line-height: 5vw;
     font-size: 60px;
@@ -43,15 +47,12 @@ form {
     height: 50%;
     padding-bottom: 30px;
     background-color: rgba(100%, 100%, 100%, 25%);
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-
-
-
 }
 
 .login {
@@ -63,31 +64,17 @@ form {
     color: gray;
     padding-left: 10px;
     font-size: 30px;
-    outline-style: none;
     box-shadow: none;
-    border-color: transparent;
-    ;
-
 }
 
 .checkbox {
     width: 20px;
     height: 20px;
     margin-right: 5px;
-
-
 }
-
-input[type="checkbox"]:checked::before {
-    border: 2px solid pink;
-    background-color: #fff;
-    color: #3993ad !important;
-}
-
-
 
 input {
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
     border: 0px solid;
 }
 
@@ -97,9 +84,9 @@ button {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
-    background: #3993ad;
-    border-radius: 10px 10px 10px 10px;
-    border: 0px solid;
+    background: var(--main-color);
+    border-radius: 10px;
+    border: none;
     font-size: 30px;
 }
 
@@ -118,5 +105,8 @@ button {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+}
 
+.hidden {
+    opacity: 0;
 }
