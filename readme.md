@@ -5,3 +5,9 @@ Zadanie dla frontend deweloperów do zrobienia w celu ustalenia umiejętności p
 3. Tło do na całą stronę (100vw i 100vh) to: https://www.tokkoro.com/picsup/2964569-abstract-colorful-warm-colors-blurred-soft-gradient___abstract-wallpapers.jpg
 4. Kolor użyty w projekcie to: #3993ad
 5. Po naciśnięciu przycisku "Login" cały formularz mi zniknąć pozostawiając białe tło formularza wraz z ikoną na górze.
+
+Wykonano:
+
+1. Odtworzenie projektu.
+2. Odtworzenie funkcji.
+3. Fontawesome w placeholderze (do weryfikacji kodowanie)
